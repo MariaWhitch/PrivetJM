@@ -16,7 +16,7 @@ public class Service {
     // true - арабские, false - римские
 
     public static boolean check(String[] array) throws Exception {
-        String[] roman = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "XI", "X"};
+        String[] roman = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
         String[] arabic = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
         String first = array[0];
         String second = array[2];
